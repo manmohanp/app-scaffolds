@@ -4,6 +4,6 @@ metadata:
   name: ${{ values.name | dump }}
 spec:
   type: website
-  owner: ${{values.owner}}
+  owner: user:guest
   lifecycle: experimental
   system: examples
