@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ${{ values.appname | ReactApp }}
+spec:
+  type: website
+  owner: ${{values.owner | guest}}
+  lifecycle: experimental
+  system: examples
